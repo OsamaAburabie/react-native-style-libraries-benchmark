@@ -1,0 +1,51 @@
+{
+  "name": "styledcomponents",
+  "version": "1.0.0",
+  "scripts": {
+    "start-native": "TAMAGUI_TARGET=native expo start -c",
+    "start-native-release-mode": "TAMAGUI_TARGET=native expo start --no-dev --minify",
+    "start-web": "TAMAGUI_TARGET=web expo start -c",
+    "android": "TAMAGUI_TARGET=native yarn expo run:android",
+    "ios": "TAMAGUI_TARGET=native yarn expo run:ios",
+    "web": "TAMAGUI_TARGET=web expo start --web"
+  },
+  "dependencies": {
+    "@emotion/native": "11.11.0",
+    "@emotion/react": "11.11.1",
+    "@fast-styles/react": "^0.2.9",
+    "@shopify/restyle": "2.4.2",
+    "@tamagui/animations-react-native": "^1.80.4",
+    "@tamagui/config": "^1.80.4",
+    "@tamagui/core": "^1.80.4",
+    "@tamagui/font-inter": "^1.80.4",
+    "@tamagui/react-native-media-driver": "^1.80.4",
+    "@tamagui/shorthands": "^1.80.4",
+    "@tamagui/theme-base": "^1.80.4",
+    "@tamagui/themes": "^1.80.4",
+    "@types/react": "18.2.20",
+    "babel-plugin-transform-inline-environment-variables": "0.4.4",
+    "expo": "49.0.13",
+    "expo-font": "11.6.0",
+    "expo-splash-screen": "0.22.0",
+    "expo-status-bar": "1.7.1",
+    "nativewind": "2.0.11",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.72.5",
+    "react-native-unistyles": "^2.0.0-rc.4",
+    "react-native-web": "0.19.9",
+    "react-native-zephyr": "1.1.2",
+    "styled-components": "6.0.8",
+    "tamagui": "^1.80.4",
+    "twrnc": "^3.6.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.23.0",
+    "@tamagui/babel-plugin": "^1.80.4",
+    "@types/react-native": "0.72.3",
+    "react-native": "0.72.5",
+    "react-native-web": "0.19.9",
+    "tailwindcss": "3.3.2"
+  },
+  "private": true
+}
