@@ -16,4 +16,7 @@ web-build/
 .metro-health-check*
 /.idea/
 tamagui.config.json
+ios
+android
+
 
